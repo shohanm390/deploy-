@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       <div>
-        <h1 className="text-center text-5xl font-semibold my-10 font-IBM-plex-sens">
+        <h1 className="text-center text-5xl font-semibold my-10 font-mono">
           Designer, Frontend Developer & Mentor
         </h1>
         <h2 className="text-center text-3xl">

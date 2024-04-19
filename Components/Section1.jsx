@@ -1,4 +1,3 @@
-import React from "react";
 
 const Section1 = () => {
   const serviceArray = [
@@ -15,32 +14,32 @@ const Section1 = () => {
       icon: "fa-solid fa-terminal",
       sName: "Frontend Developer",
       desc: "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
-      title: "Languages I speak:",
-      ts: "HTML, Pug, Slim, CSS, Sass, Git",
+      title: "Experiences I draw from:",
+      ts: "UX/UI, Product design, Freelancing",
       dt: "Dev Tools : ",
       li: ["VS Code", "Chat-GPT", "Bootstrap", "Github","Copilot","Netlify","Next JS" ," Tailwind CSS"],
     },
     {
       icon: "fa-solid fa-book",
-      sName: "Mentor",
+      sName: "Languages",
       desc: "I genuinely care about people, and enjoy helping them work on their craft.",
-      title: "Experiences I draw from:",
-      ts: "UX/UI, Product design, Freelancing",
+      title: " Languages I speak:",
+      ts: "HTML, Pug, Slim, CSS, Sass, Git",
       dt: "Mentor Stats : ",
-      li: ["5+ years experience", "30+ short courses", "60+ bootcams", "300+ students","18,000+ bits of feedback"],
+      li: ["HTML", "CSS", "JavaScriot", "Bootstrap5","TailwindCSS",,"Next JS","Node JS","Express JS", "MongoDB"],
     },
   ];
   return (
     <div className="mt-44 mb-20">
       <img
-        className=" w-2/4 mx-auto "
+        className=" md:w-2/4 mx-auto "
         src={"https://bishcodev.com/static/img/techVector.svg"}
       ></img>
       <div className="bg-gradient-to-l  from-purple-800 via-purple-600 to-purple-800 py-44">
         <h1 className="text-center text-4xl text-white font-sans font-semibold">
           Hi, I’m Shohan. Nice to meet you.
         </h1>
-        <p className="text-gray-100 text-lg w-2/6 text-center mx-auto mt-10">
+        <p className="text-gray-100 text-lg md:w-2/6 p-1 text-center mx-auto mt-10">
           Since beginning my journey as a freelance designer 12 years ago, I've
           done remote work for agencies, consulted for startups, and
           collaborated with talented people to create digital products for both
@@ -48,7 +47,7 @@ const Section1 = () => {
           and perpetually working on improving my chops.
         </p>
       </div>
-      <div className="flex bg-white border-2 w-2/3 mx-auto -mt-28 rounded-lg">
+      <div className="flex bg-white border-2 md:w-2/3 mx-2 md:flex-row flex-col md:mx-auto -mt-28 rounded-lg">
         {serviceArray.map((item, index) => (
           <div key={index} className="text-center py-10 border">
               <i

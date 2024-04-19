@@ -3,10 +3,10 @@ import design from "@/images/design.png";
 
 function Navbar() {
   return (
-    <div className="px-44">
+    <div className="md:px-44">
       <div className="flex justify-between items-center">
-        <Image className="w-36" src={design}></Image>
-        <div className="">
+        <Image className="md:w-36 w-20" src={design}></Image>
+        <div className="md:static absolute right-5">
           <button className="mr-7 text-lg font-semibold hover:text-purple-700 duration-500">
             Mentorship
           </button>

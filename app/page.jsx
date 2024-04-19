@@ -3,6 +3,7 @@ import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
 import Script from "next/script";
 import Section1 from "@/Components/Section1";
+import Section2 from "@/Components/Section2";
 export default function page() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function page() {
       <Navbar />
       <Hero />
       <Section1/>
+      <Section2/>
       <Script
         src="https://kit.fontawesome.com/2f91ad583c.js"
         crossorigin="anonymous"
